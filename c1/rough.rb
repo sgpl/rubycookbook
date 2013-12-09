@@ -16,3 +16,5 @@ puts string
 puts string.empty?
 puts string.include? 'my' # because we changed string above
 puts string.include? 'MY'
+
+puts string.length.next * 100
