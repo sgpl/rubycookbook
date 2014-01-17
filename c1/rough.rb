@@ -19,3 +19,13 @@ puts string.include? 'MY'
 
 puts string.length.next * 100
 
+puts string.count('I')
+
+ long_string = <<EOF
+Here is a long string
+With many paragraphs
+EOF
+# => "Here is a long string\nWith many paragraphs\n"
+puts long_string
+# Here is a long string
+# With many paragraphs
